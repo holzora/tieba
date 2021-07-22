@@ -1,13 +1,13 @@
 name: 'Default'
 
-on:
+#on:
   push:
     branches:
       - main
   schedule:
     - cron: '10 17 * * *'
 
-jobs:
+#jobs:
   tieba_sign:
     runs-on: ubuntu-latest
     steps:
